@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.js -d dist/"
+    "build": "parcel build src/index.html -d dist/"
   },
   "devDependencies": {
     "parcel-bundler": "^1.2.1",
