@@ -1,0 +1,7 @@
+{
+  "plugins": {
+    "posthtml-md": {
+    	"comment": "an option must be here because posthtml-md exports an options closure (unnecessarily)"
+    }
+  }
+}

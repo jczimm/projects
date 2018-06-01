@@ -1,0 +1,17 @@
+{
+  "name": "project-list",
+  "version": "0.0.1",
+  "description": "Living list of all my code projects.",
+  "repository": "git@github.com:jczimm/projects.git",
+  "author": "Jacob Zimmerman <jczimm@jczimm.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.js -d dist/"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.2.1",
+    "posthtml-md": "^1.1.0"
+  }
+}
